@@ -4,7 +4,6 @@ import numpy as np
 from ultralytics import YOLO
 from PIL import Image
 from google import genai
-from streamlit.components.v1 import html
 import os
 
 API = os.getenv('API_KEY')
